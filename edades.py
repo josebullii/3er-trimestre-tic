@@ -6,4 +6,13 @@ edadAux = edadJose
 edadJose = edadJuan
 edadJuan = edadAux
 
-print("Juan tiene", edadJuan, "años y Jose tiene", edadJose, "años")
+#if condicional
+if edadJose>=18:
+    print("La edad de Jose es", edadJose, " y es mayor de edad")
+else:
+    print("La edad de Jose es", edadJose, "y es menor de edad")
+
+if edadJuan>=18:
+    print("La edad de Juan es", edadJuan, "y es mayor de edad")
+else:
+    print("La edad de Juan es", edadJuan, "y es menor de edad")
