@@ -31,6 +31,10 @@ while num != n:
         num = int(input("Introduzca otro número: "))
         intentos = intentos + 1
 
+    if intentos == 10:
+        print("\nGAME OVER (Ha utilizado todos los intentos)")
+        print("El número a adivinar era el", n)
+
 #Fin del juego
 if n == num:
     print("Felicidades, has ganado el juego")
