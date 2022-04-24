@@ -1,4 +1,4 @@
-#Inicio Juego: Adivina el número aleatorio (Ejercicios de refuerzo)
+#Inicio Juego: Adivina el número aleatorio
 
 #Librerias
 import random
