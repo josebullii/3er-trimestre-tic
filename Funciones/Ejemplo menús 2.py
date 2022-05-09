@@ -20,16 +20,20 @@ def seleccionOpcion():
 
     return opcion
 
+def programa():
+    print("***** Ejercicios de funciones *****")
+    opc = 0
 
-print("***** Ejercicios de funciones *****")
-opc = 0
+    while opc != 3:
+        opc = seleccionOpcion()
+        match opc:
+            case 1:
+                print("Ejercicio 1")
+            case 2:
+                print("Ejercicio 2")
+            case 3: 
+                print ("Saliendo del programa...")
 
-while opc != 3:
-    opc = seleccionOpcion()
-    match opc:
-        case 1:
-            print("Ejercicio 1")
-        case 2:
-            print("Ejercicio 2")
-        case 3: 
-            print ("Saliendo del programa...")
+
+
+programa()

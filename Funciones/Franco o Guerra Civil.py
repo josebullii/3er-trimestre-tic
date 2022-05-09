@@ -27,8 +27,8 @@ def francoVSguerracivil(ite): #ite es el número de interacciones
     probGuerra = (numGuerra / contador) * 100
 
     #Visualización del porcentaje
-    #print("La probabilidad de Franco es del", probFranco, "%")
-    #print("La probabilidad de la Guerra Civil es del", probGuerra, "%")
+    print("La probabilidad de Franco es del", probFranco, "%")
+    print("La probabilidad de la Guerra Civil es del", probGuerra, "%")
 
     #Devolución de valores
     if probFranco > probGuerra:
