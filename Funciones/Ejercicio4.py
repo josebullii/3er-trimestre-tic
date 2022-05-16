@@ -4,11 +4,13 @@
 #dicha función.
 
 def ConvertirEspaciado(texto):
+    textoEspaciado = ""
+    
     for i in texto:
-        if texto[i] != " ":
-            texto = texto[i] + " "
+        textoEspaciado = textoEspaciado + (i + (" "))
+    return textoEspaciado
 
 #Inicio del programa
-
-texto = input("Escriba un texto: ")
-ConvertirEspaciado(texto)
+texto = input("Introduzca el texto al que quiere agregar espacios: ")
+print("El texto espaciado es: ", end="")
+print(ConvertirEspaciado(texto), end = "")
